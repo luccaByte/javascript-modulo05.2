@@ -1,4 +1,4 @@
-let produtoJs = document.querySelector ('.produto');
+let body = document.querySelector ('body');
 
 let tituloJs = document.createElement ('h1');
 tituloJs.id = 'titulo';
@@ -12,8 +12,8 @@ cardOffer.innerHTML = `
     <p>R$ 899.99</p>
 `;
 
-produtoJs.appendChild(tituloJs);
-produtoJs.appendChild(cardOffer);
+body.appendChild(tituloJs);
+body.appendChild(cardOffer);
 
 
 
